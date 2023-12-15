@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pixelify+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.typeing h2 span{
+  font-family: 'Pixelify Sans', sans-serif;
+  color: rgb(66, 247, 66);
+}
+
+
+#glitchImage {
+ 
+ 
+  max-width: 560px; /* Set your desired max-width for responsiveness */
+  animation: fadeInOutMove 4s infinite linear alternate;
+}
+
+@keyframes fadeInOutMove {
+  0%, 100% {
+      opacity: 0;
+      transform: translateY(0);
+  }
+
+  50% {
+      opacity: 1;
+      transform: translateY(-10%);
+  }
+  
+}
+#earth  { overflow: hidden; margin:20px; display: inline-block;  animation: rotate 4s infinite linear; }
+#earth img{ border-radius: 50%; width: 300px; height: 300px;}
+
+
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}

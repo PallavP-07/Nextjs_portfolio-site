@@ -1,0 +1,129 @@
+export const Social =[
+    {
+        name:"github",
+        src:'/gitwhite.png'
+    },
+    {
+        name:"instagram",
+        src:'/instagram.svg'
+    },
+    {
+        name:"linkedin",
+        src:'/linkedin.png'
+    },
+
+]
+
+export const FrontendTech=[
+    {
+        name:"html",
+        Image:'/html.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"css",
+        Image:'/css.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"javascript",
+        Image:'/js.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"reactjs",
+        Image:'/react.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"nextjs",
+        Image:'/next.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"tailwind",
+        Image:'/tailwind.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"sass",
+        Image:'/sass.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"bootstrap",
+        Image:'/bootstrap.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"mui",
+        Image:'/mui.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"redux",
+        Image:'/redux.png',
+        width:80,
+        height:80
+    },
+]
+
+export const BackendTech=[
+    {
+        name:"nodeJs",
+        Image:'/node-js.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"ExpressJs",
+        Image:'/express.png',
+        width:80,
+        height:80
+    },
+
+    {
+        name:"mongodb",
+        Image:'/mongodb.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"mysql",
+        Image:'/mysql.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"postger",
+        Image:'/postger.png',
+        width:80,
+        height:80
+    },
+
+]
+
+export const other =[
+    {
+        name:"github",
+        Image:'/gitwhite.png',
+        width:80,
+        height:80
+    },
+    {
+        name:"docker",
+        Image:'/docker.webp',
+        width:80,
+        height:80
+    },
+
+]
